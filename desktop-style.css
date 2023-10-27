@@ -1,0 +1,219 @@
+
+  body {
+    background-color:  hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+  .container {
+    margin-block: 7rem;
+    display: flex;
+    width: 800px;
+    background-color: hsl(0, 0%, 100%);
+    margin-inline: auto;
+    border-radius: 15px;
+  }
+
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    ) ;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+
+  }
+
+  h1 {
+    color:  hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 3rem;
+  }
+
+  p{
+    color:  hsl(241, 100%, 89%);
+    margin-inline: auto;
+  }
+
+  .section-1 h2 {
+    color: hsl(0, 0%, 100%);
+    margin-inline: auto;
+  }
+
+  .circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50%;
+    height: 40%;
+    background: linear-gradient(
+        to bottom,
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
+    padding: 10px;
+    margin-top: 20px;
+    margin-inline: auto;
+    line-height: 5px;
+    
+  }
+
+  .section-2 {
+    font-weight: 700;
+    padding: 20px;
+    width: 50%;
+    margin-inline: auto;
+  }
+
+  .section-2 h2 {
+    color:  hsl(224, 30%, 27%);
+  }
+  
+
+  .reaction{
+    display: flex;
+    color: hsl(0, 100%, 67%);
+    background-color: rgba(255, 87, 87, 0.1 );
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .reaction p{
+    padding-left: 8.5rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+
+
+  .memory {
+    display: flex;
+    background-color: rgba(244, 176, 31, 0.1);
+    color: hsl(39, 100%, 56%);
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+
+  }
+  .memory p{
+    padding-left: 8.5rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+
+  .verbal {
+    display: flex;
+    background-color: rgba(0, 189, 145, 0.1);
+    color: hsl(166, 100%, 37%);
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .verbal p{
+    padding-left: 8.5rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+
+  .visual {
+    display: flex;
+    background-color: rgba(17, 37, 212, 0.1);
+    color: hsl(234, 85%, 45%);
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 5px;margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .visual p{
+    padding-left: 8.5rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+  span{
+    opacity: 60%;
+  }
+
+
+  button{
+    width: 100%;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    padding-block: 10px;
+  }
+
+  button:hover{
+    cursor: pointer;
+}
+
+
+ 
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media(max-width:800px){
+
+        .container{
+            flex-direction: column;
+            width: 375px;
+            margin-inline: auto;
+            margin-block: 0;
+            border-radius: 0;
+          
+        }
+
+        .section-1 {
+            width: 352px;
+            /* margin-right: 40px;
+            padding-inline: 30px; */
+            margin-inline: auto;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .circle{
+          height: 60%;
+          width: 40%;
+          padding: 5px;
+          border-radius: 50%;
+        }
+
+        .section-2{
+            width: 100%;
+        }
+
+        .reaction {
+            padding-block: 5px;
+            width: 85%;
+        }
+        .memory{
+            padding-block: 5px;
+            width: 85%;
+        }
+
+        .verbal{
+            padding-block: 5px;
+            width: 85%;
+        }
+
+        .visual{
+            padding-block: 5px;
+            width: 85%;
+        }
+
+        button {
+            padding-block: 20px;
+            width: 85%;
+        }
+    }
+ 
